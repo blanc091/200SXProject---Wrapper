@@ -9,7 +9,7 @@ namespace _200SXProject___MAUI
         public MainPage()
         {
             InitializeComponent();
-            WebView.Source = "https://www.200sxproject.com";
+            WebView.Source = "https://www.200sxproject.com"; // adding this just for test GIT
             ConfigureWebView();
         }
         private void ConfigureWebView()
