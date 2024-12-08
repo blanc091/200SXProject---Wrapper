@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("200SXProject - MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+28e9aba6756ad1d14428f94d24694be8d689c967")]
 [assembly: System.Reflection.AssemblyProductAttribute("200SXProject - MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("200SXProject - MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

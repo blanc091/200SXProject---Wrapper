@@ -1,0 +1,15 @@
+# .NET
+bin/
+obj/
+
+# User-specific files
+.vs/
+
+# macOS specific build output
+.vscode/
+
+# Xamarin specific files (for older projects, if applicable)
+packages/
+
+# MAUI/Android/iOS build outputs
+Platforms/
