@@ -13,3 +13,4 @@ packages/
 
 # MAUI/Android/iOS build outputs
 Platforms/
+/key_s.jks
