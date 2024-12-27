@@ -1,8 +1,15 @@
 ﻿<resources>
-  <style name="Maui.SplashTheme" parent="Theme.Maui">
-    <item name="android:windowBackground">@drawable/splashscreen</item>
-  </style>
-  <style name="Maui.SplashTheme.Splash" parent="Theme.Maui.Splash">
-    <item name="android:windowBackground">@drawable/splashscreen</item>
-  </style>
+    <!-- Main app theme -->
+    <style name="MainTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+		<item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="MainTheme.Splash" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+		<item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

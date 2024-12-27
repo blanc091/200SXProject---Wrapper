@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_200SXProject___MAUI.ErrorPage"
+             BackgroundColor="DarkGray">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="    Oops ! Unable to connect to the internet; please connect to a network and try again."
+               TextColor="Black"
+               FontSize="20"
+               HorizontalOptions="Center" />
+        <Button Text="Retry"
+                Clicked="RetryButton_Clicked"
+                HorizontalOptions="Center"
+                Margin="10" />
+    </StackLayout>
+</ContentPage>

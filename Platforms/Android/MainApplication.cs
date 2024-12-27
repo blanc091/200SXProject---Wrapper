@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Runtime;
+using Microsoft.Maui.Controls;
 
 namespace _200SXProject___MAUI
 {
@@ -10,7 +11,6 @@ namespace _200SXProject___MAUI
             : base(handle, ownership)
         {
         }
-
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
 }
